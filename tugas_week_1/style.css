@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px 9%;
+    margin-top: 5rem;
+}
+
+.form-section {
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+    padding: 5rem;
+}
+
+.form-section .to-do-list h1 {
+    margin-bottom: 1rem;
+}
+
+.form-section .to-do-list form .form-content {
+    margin-bottom: 1rem;
+}
+
+.form-section .to-do-list form  .form-content input,
+textarea {
+    padding: 8px 15px;
+    border: 1px solid #c4c4c4;
+    border-radius: 0.3rem;
+}
+
+.form-section .to-do-list form button {
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 0.3rem;
+    padding: 5px 15px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-section .to-do-list form button:hover {
+    opacity: 0.5;
+}
+
+.task-content .card-content {
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 0.5rem;
+}
+
+.task-content .card-content span {
+    font-weight: lighter;
+}
+
